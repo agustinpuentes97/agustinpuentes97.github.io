@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Obras destacadas - MNE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Space+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="../img/fav-mne.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Comienza header -->
+    <header class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <img src="img/logo-mne.jpg" alt="logo-mne" id="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../artistas/index.html">Artistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../movimiento/index.html">Movimiento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Obras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../tecnicas/index.html">Técnicas y Estilos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../entrevistas/index.html">Entrevistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../juego/index.html">Artgame</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- Termina el header -->
+
+    <div class="container-fluid">
+        <div class="row obra-artista" id="pintura-basquiat">
+            <div class="col-lg-7">
+                <img src="img/pintura-basquiat-completa.jpg" class="image-responsive image-popup" alt="obra-basquiat"
+                    onclick="mostrarPopUp(this)">
+            </div>
+            <div class="col-lg-4 ">
+                <h2 class="h2-obra">
+                    El gran espectáculo
+                </h2>
+                <h3>
+                    <a href="../artistas/basquiat/index.html" class="link-artista">
+                        Jean-Michel Basquiat
+                    </a>
+                </h3>
+                <p>
+                    1983
+                </p>
+            </div>
+        </div>
+        <div class="popup">
+            <img src="" alt="Imagen en Pop-up" id="imagen-popup">
+            <span class="close-button" onclick="cerrarPopUp()">&times;</span>
+        </div>
+        <div class="row obra-artista" id="pintura-baselitz">
+            <div class="col-lg-7">
+                <img src="img/pintura-baselitz-completa.jpg" id="basquiat" class="image-responsive " alt="obra-baselitz"
+                    onclick="mostrarPopUp(this)">
+            </div>
+            <div class="col-lg-4 ">
+                <h2 class="h2-obra">
+                    El coro del puente
+                </h2>
+                <h3>
+                    <a href="../artistas/baselitz/index.html" class="link-artista">
+                        Georg Baselitz
+                    </a>
+                </h3>
+                <p>
+                    1983
+                </p>
+            </div>
+        </div>
+
+        <div class="row obra-artista" id="pintura-immendorff">
+            <div class="col-lg-7">
+                <img src="img/pintura-immendorff-completa.jpg" class="image-responsive" alt="obra-immendorff"
+                    onclick="mostrarPopUp(this)">
+            </div>
+            <div class="col-lg-4 ">
+                <h2 class="h2-obra">
+                    Gyntiana
+                </h2>
+                <h3>
+                    <a href="../artistas/immendorff/index.html" class="link-artista">
+                        Jörg Immendorff
+                    </a>
+                </h3>
+                <p>
+                    1992
+                </p>
+            </div>
+        </div>
+
+        <div class="row obra-artista" id="pintura-sandoval">
+            <div class="col-lg-7">
+                <img src="img/pintura-sandoval-completa.jpg" class="image-responsive" alt="obra-sandoval"
+                    onclick="mostrarPopUp(this)">
+            </div>
+            <div class="col-lg-4 ">
+                <h2 class="h2-obra">
+                    Google Universe
+                </h2>
+                <h3>
+                    <a href="../artistas/sandoval/index.html" class="link-artista">
+                        Pedro Sandoval
+                    </a>
+                </h3>
+                <p>
+                    2015
+                </p>
+            </div>
+        </div>
+
+        <div class="row obra-artista" id="pintura-hodicke">
+            <div class="col-lg-7">
+                <img src="img/pintura-hodicke-completa.jpg" class="image-responsive" alt="obra-hodicke"
+                    onclick="mostrarPopUp(this)">
+            </div>
+            <div class="col-lg-4">
+                <h2 class="h2-obra">
+                    Leyenda I
+                </h2>
+                <h3>
+                    <a href="../artistas/hodicke/index.html" class="link-artista">
+                        Karl Horst Hödicke
+                    </a>
+                </h3>
+                <p>
+                    1988
+                </p>
+            </div>
+        </div>
+
+        <div class="row obra-artista" id="pintura-penck">
+            <div class="col-lg-7">
+                <img src="img/pintura-penck-completa.jpg" class="image-responsive" alt="obra-penck"
+                    onclick="mostrarPopUp(this)">
+            </div>
+            <div class="col-lg-4 ">
+                <h2 class="h2-obra">
+                    Pelea romántica
+                </h2>
+                <h3>
+                    <a href="../artistas/penck/index.html" class="link-artista">
+                        A.R. Penck
+                    </a>
+                </h3>
+                <p>
+                    1989
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 text-center">
+                    Informática General <br>
+                    Cát. Drelicham <br>
+                    Turno Noche
+                </div>
+                <div class="col-lg-6 text-center">
+                    <p>
+                        Puentes Agustín Leonardo
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/popup.js"></script>
+</body>
+
+</html>

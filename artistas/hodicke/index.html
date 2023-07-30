@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hödicke - MNE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Space+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="../../img/fav-mne.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Comienza header -->
+    <header class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="../../index.html">
+                <img src="img/logo-mne.jpg" alt="logo-mne" id="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Artistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../movimiento/index.html">Movimiento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../obras/index.html">Obras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../tecnicas/index.html">Técnicas y Estilos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../entrevistas/index.html">Entrevistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../juego/index.html">Artgame</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- Termina el header -->
+
+    <div class="container-fluid">
+        <div class="row container-artista-desarrollo">
+            <div class="col-lg-7">
+                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="popup">
+                        <img src="" alt="Imagen en Pop-up" id="imagen-popup">
+                        <span class="close-button" onclick="cerrarPopUp()">&times;</span>
+                    </div>
+                    <!-- Slides del carrusel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/hodicke-pinturas-01.jpg" class="image-responsive" alt="obra-hodicke1"
+                                onclick="mostrarPopUp(this)">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/hodicke-pinturas-02.jpg" class="image-responsive" alt="obra-hodicke2"
+                                onclick="mostrarPopUp(this)">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/hodicke-pinturas-03.jpg" class="image-responsive" alt="obra-hodicke3"
+                                onclick="mostrarPopUp(this)">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/hodicke-pinturas-04.jpg" class="image-responsive" alt="obra-hodicke4"
+                                onclick="mostrarPopUp(this)">
+                        </div>
+                    </div>
+
+                    <!-- Controles -->
+                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 artista-col">
+                <h1 class="h1-artista">
+                    Karl Horst Hödicke
+                </h1>
+                <br>
+                <h2>
+                    22/02/1938 - 85 años
+                </h2>
+                <br>
+                <p class="p-artista">
+                    Karl Horst Hödicke es un destacado artista alemán nacido el 17 de febrero de 1938 en Nuremberg,
+                    Alemania. Es conocido por ser uno de los principales exponentes del movimiento artístico conocido
+                    como "Nueva Figuración" (Neue Figuration) en Alemania.<br><br>
+                    Hödicke se formó en la Academia de Bellas Artes de Berlín y se convirtió en una figura importante en
+                    la escena artística de Alemania Occidental durante la década de 1960. Como artista neoexpresionista,
+                    su trabajo se caracterizó por una marcada vuelta a la figuración y el rechazo de las tendencias
+                    abstractas y minimalistas que predominaban en ese momento.<br><br>
+                    Sus pinturas a menudo representan paisajes urbanos, interiores y figuras humanas, y reflejan una
+                    atmósfera melancólica y misteriosa. Hödicke utilizó una paleta de colores sombríos y una técnica
+                    gestual y expresiva, que enfatizó la materialidad y la textura de sus obras.<br><br>
+                    A lo largo de su carrera, Hödicke experimentó con diferentes estilos y enfoques artísticos, y su
+                    obra fue influenciada por la cultura pop, el expresionismo alemán y la pintura informalista. Además
+                    de la pintura, también trabajó en escultura y grabado.<br><br>
+                    En la década de 1970, Hödicke fue uno de los fundadores de la "Galerie am Moritzplatz" en Berlín, un
+                    importante espacio de exhibición que promovió el arte contemporáneo y se convirtió en un punto de
+                    encuentro para artistas y críticos.<br><br>
+                    A lo largo de su carrera, Karl Horst Hödicke ha participado en numerosas exposiciones y ha recibido
+                    reconocimientos por su contribución al arte alemán. Su obra ha sido aclamada por su originalidad y
+                    su capacidad para capturar la esencia de la vida urbana y la experiencia humana. <br><br>
+                    Hödicke continúa siendo una figura activa en el mundo del arte, y su legado como un destacado
+                    exponente del neoexpresionismo y la Nueva Figuración en Alemania persiste hasta la actualidad. Su
+                    trabajo sigue siendo valorado y exhibido en galerías y museos de todo el mundo.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 text-center">
+                    Informática General <br>
+                    Cát. Drelicham <br>
+                    Turno Noche
+                </div>
+                <div class="col-lg-6 text-center">
+                    <p>
+                        Puentes Agustín Leonardo
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="../js/popup.js"></script>
+</body>
+
+</html>

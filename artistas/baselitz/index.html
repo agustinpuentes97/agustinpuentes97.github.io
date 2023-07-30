@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Baselitz - MNE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Space+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="../../img/fav-mne.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Comienza header -->
+    <header class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="../../index.html">
+                <img src="img/logo-mne.jpg" alt="logo-mne" id="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Artistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../movimiento/index.html">Movimiento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../obras/index.html">Obras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../tecnicas/index.html">Técnicas y Estilos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../entrevistas/index.html">Entrevistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../juego/index.html">Artgame</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- Termina el header -->
+
+    <div class="container-fluid">
+        <div class="row container-artista-desarrollo">
+            <div class="col-lg-7">
+                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="popup" >
+                        <img src="" alt="Imagen en Pop-up" id="imagen-popup">
+                        <span class="close-button" onclick="cerrarPopUp()">&times;</span>
+                    </div>
+                    <!-- Slides del carrusel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/baselitz-pinturas-01.jpg" class="image-responsive" alt="obra-baselitz1" onclick="mostrarPopUp(this)">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/baselitz-pinturas-02.jpg" class="image-responsive" alt="obra-baselitz2" onclick="mostrarPopUp(this)">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/baselitz-pinturas-03.jpg" class="image-responsive" alt="obra-baselitz3" onclick="mostrarPopUp(this)">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/baselitz-pinturas-04.jpg" class="image-responsive" alt="obra-baselitz4" onclick="mostrarPopUp(this)">
+                        </div>
+                    </div>
+
+                    <!-- Controles -->
+                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 artista-col">
+                <h1 class="h1-artista">
+                    Georg Baselitz
+                </h1>
+                <br>
+                <h2>
+                    23/01/1938 - 85 años
+                </h2>
+                <br>
+                <p class="p-artista">
+                    Georg Baselitz, cuyo nombre real es Hans-Georg Kern, es un prominente artista alemán nacido el 23 de
+                    enero de 1938 en Deutschbaselitz, Sajonia, Alemania. Es conocido por su estilo distintivo y
+                    provocador, que ha dejado una profunda huella en el arte contemporáneo. <br><br>
+                    Baselitz se destacó en la década de 1960 por su enfoque en la figuración expresionista, que fue una
+                    reacción contra las tendencias abstractas y minimalistas que dominaban la escena del arte en ese
+                    momento. Su estilo se caracterizó por la representación de figuras humanas invertidas o boca abajo,
+                    lo que le otorgaba un enfoque disruptivo y provocador.<br><br>
+                    Durante su juventud, Baselitz creció en la Alemania de la posguerra, y su obra artística reflejó
+                    tanto su experiencia personal como la situación política y social de la época. Al mostrar sus
+                    figuras boca abajo, buscaba desafiar las convenciones artísticas y cuestionar la percepción
+                    tradicional de la imagen.<br><br>
+                    A lo largo de su carrera, Baselitz ha trabajado en una variedad de medios, incluyendo pintura,
+                    escultura, grabado y dibujo. Sus obras suelen ser vigorosas, expresivas y cargadas de emoción.
+                    Además de la inversión de las figuras, su paleta de colores suele ser audaz y contrastante, lo que
+                    realza aún más la intensidad de sus obras.<br><br>
+                    Baselitz ha sido un artista muy influyente en la escena artística alemana y mundial. Su trabajo ha
+                    sido expuesto en importantes museos y galerías de todo el mundo, y ha recibido numerosos
+                    reconocimientos a lo largo de su carrera.<br><br>
+                    Georg Baselitz continúa siendo una figura destacada en el mundo del arte contemporáneo. Su legado
+                    como uno de los principales exponentes del neoexpresionismo alemán y su estilo único y desafiante
+                    siguen inspirando a artistas y espectadores en todo el mundo.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 text-center">
+                    Informática General <br>
+                    Cát. Drelicham <br>
+                    Turno Noche
+                </div>
+                <div class="col-lg-6 text-center">
+                    <p>
+                        Puentes Agustín Leonardo
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+        <script src="../js/popup.js"></script>
+</body>
+
+</html>

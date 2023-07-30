@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sandoval - MNE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Space+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="../../img/fav-mne.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Comienza header -->
+    <header class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="../../index.html">
+                <img src="img/logo-mne.jpg" alt="logo-mne" id="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Artistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../movimiento/index.html">Movimiento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../obras/index.html">Obras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../tecnicas/index.html">Técnicas y Estilos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../entrevistas/index.html">Entrevistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../juego/index.html">Artgame</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- Termina el header -->
+
+    <div class="container-fluid">
+        <div class="row container-artista-desarrollo">
+            <div class="col-lg-7">
+                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="popup">
+                        <img src="" alt="Imagen en Pop-up" id="imagen-popup">
+                        <span class="close-button" onclick="cerrarPopUp()">&times;</span>
+                    </div>
+                    <!-- Slides del carrusel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/sandoval-pinturas-01.jpg" class="image-responsive" alt="obra-sandoval1"
+                                onclick="mostrarPopUp(this)">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/sandoval-pinturas-02.jpg" class="image-responsive" alt="obra-sandoval2"
+                                onclick="mostrarPopUp(this)">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/sandoval-pinturas-03.jpg" class="image-responsive" alt="obra-sandoval3"
+                                onclick="mostrarPopUp(this)">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/sandoval-pinturas-04.jpg" class="image-responsive" alt="obra-sandoval4"
+                                onclick="mostrarPopUp(this)">
+                        </div>
+                    </div>
+
+                    <!-- Controles -->
+                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 artista-col">
+                <h1 class="h1-artista">
+                    Pedro Sandoval
+                </h1>
+                <br>
+                <h2>
+                    12/07/1964 - 59 años
+                </h2>
+                <br>
+                <p class="p-artista">
+                    Nacido en Venezuela en 1966 y afincado actualmente en España, el nombre de Pedro Sandoval se
+                    encuentra estrechamente asociado en la actualidad al movimiento neoexpresionista abstracto.
+                    Sus dotes artísticas se manifestaron desde muy temprana edad y obtuvo su primer reconocimiento con
+                    tan solo seis años, cuando le fue otorgado el premio Young Master of the World en la ciudad japonesa
+                    de Osaka. Sus notables cualidades le llevaron a ingresar en la escuela Cristóbal Rojas, en su
+                    Venezuela natal, lugar donde se formó en las principales disciplinas artísticas. Durante su
+                    evolución Pedro Sandoval ha tratado tanto la figuración como la abstracción, y se ha formado y
+                    trabajado junto a grandes maestros reconocidos a nivel internacional como Oswaldo Vigas o Jesús
+                    Rafael Soto. <br><br>
+                    Desde que, en la década del 2000, fijó su residencia en España sus continuos viajes a Alemania le
+                    llevaron a trabajar estrechamente con las figuras más reconocidas del neoexpresionismo alemán como
+                    Georg Baselitz, Sigmar Polke o Anselm Kiefer junto a los cuales llegó a formar parte de lo que
+                    Wolfrang Becker denominó los Nuevos Salvajes, término con el que se identificaba a aquellos pintores
+                    que se encontraban a la cabeza de movimiento.<br><br>
+                    Actualmente, Pedro Sandoval centra sus investigaciones tanto en las nuevas vanguardias alemanas como
+                    en el trabajo de los expresionistas abstractos norteamericanos como Hans Hofmann, Barnett Newman,
+                    Jackson Pollock o Cy Twonbly entre otros.<br><br>
+                    Hoy en día las obras de Pedro Sandoval pueden encontrarse en museos como el Guggenheim de Nueva York
+                    o en los museos de arte contemporáneo de Caracas y Boca Ratón (Florida), así como en grandes
+                    colecciones como la de la Casa Blanca, la del Museo del Vaticano o la de la Familia Kennedy, entre
+                    otras.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container-flui">
+            <div class="row">
+                <div class="col-lg-6 text-center">
+                    Informática General <br>
+                    Cát. Drelicham <br>
+                    Turno Noche
+                </div>
+                <div class="col-lg-6 text-center">
+                    <p>
+                        Puentes Agustín Leonardo
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="../js/popup.js"></script>
+</body>
+
+</html>
